@@ -219,3 +219,196 @@ OpenCV community
 Machine Learning open source contributors
 
 Educational technology research community
+
+# User and Module Identification
+
+## User Identification
+
+### Administrator
+
+#### Responsibilities
+
+Manage users
+
+Add update and delete educational games
+
+Monitor system performance
+
+View user progress and reports
+
+Manage voice command settings
+
+Maintain the database
+
+### Learner
+
+#### Responsibilities
+
+Register and log in
+
+Play voice controlled educational games
+
+Use voice commands to interact with games
+
+View scores and progress
+
+Receive learning feedback
+
+Track skill improvement
+
+### Trainer or Teacher
+
+#### Responsibilities
+
+Monitor learner performance
+
+Assign educational games
+
+Analyze progress reports
+
+Provide guidance and feedback
+
+Generate learning reports
+
+---
+
+# Module Identification
+
+## User Authentication Module
+
+### Functions
+
+User registration
+
+User login
+
+Password management
+
+Role based access for administrator learner and trainer
+
+---
+
+## Voice Recognition Module
+
+### Functions
+
+Capture voice input
+
+Convert speech to text
+
+Recognize predefined voice commands
+
+Handle incorrect or invalid commands
+
+---
+
+## Game Management Module
+
+### Functions
+
+Load educational games
+
+Start pause resume and exit games
+
+Manage game levels
+
+Track game completion
+
+---
+
+## Learning Assessment Module
+
+### Functions
+
+Evaluate user performance
+
+Calculate scores
+
+Track completed tasks
+
+Generate feedback
+
+Store learning history
+
+---
+
+## Progress Tracking Module
+
+### Functions
+
+Maintain learner records
+
+Display score history
+
+Show performance improvement
+
+Generate progress reports
+
+---
+
+## Admin Management Module
+
+### Functions
+
+Manage users
+
+Manage games
+
+Update voice commands
+
+View system reports
+
+Maintain database records
+
+---
+
+## Database Module
+
+### Functions
+
+Store user information
+
+Store game data
+
+Store scores and progress
+
+Store voice command configurations
+
+Backup and retrieve data
+
+---
+
+## Report Generation Module
+
+### Functions
+
+Generate learner reports
+
+Generate trainer reports
+
+Display graphical performance analysis
+
+Export reports if required
+
+---
+
+# Overall System Flow
+
+1. Administrator creates and manages educational games.
+
+2. Learner registers or logs into the system.
+
+3. Learner provides voice commands through the microphone.
+
+4. Voice Recognition Module converts speech into commands.
+
+5. Game Management Module performs the requested actions.
+
+6. Learning Assessment Module evaluates user performance.
+
+7. Progress Tracking Module stores scores and learning history.
+
+8. Administrator and Trainer monitor learner progress through reports.
+
+ Use Case diagram:  
+C:\Users\shivn\Downloads\fqyGQSE_bsF0FAfL_-RA1hasCwi8cSifqTZYDsp5_0gObW3HnJ2flcJ9AWEQ0vhzqOblmKoyekL8rCF9GiBrtk4KZvf182vrWcXW5qgQAtmNp0Al_N4GG-hGEJfoiIBjvM-UcKVxSvRLTPLacxukOMjMxLTUfZ23XYXJXgAhOf-n-jkZVn2QGqN4YKFjE4xV.jpg
