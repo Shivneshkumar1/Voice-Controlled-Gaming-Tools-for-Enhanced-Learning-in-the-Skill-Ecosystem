@@ -412,3 +412,197 @@ Export reports if required
 
  Use Case diagram:  
 C:\Users\shivn\Downloads\fqyGQSE_bsF0FAfL_-RA1hasCwi8cSifqTZYDsp5_0gObW3HnJ2flcJ9AWEQ0vhzqOblmKoyekL8rCF9GiBrtk4KZvf182vrWcXW5qgQAtmNp0Al_N4GG-hGEJfoiIBjvM-UcKVxSvRLTPLacxukOMjMxLTUfZ23XYXJXgAhOf-n-jkZVn2QGqN4YKFjE4xV.jpg
+
+# Database Requirements
+
+## Database Name
+
+VoiceGamingDB
+
+---
+
+# Database Tables
+
+## 1. Users
+
+### Description
+
+Stores information about all registered users including learners, trainers, and administrators.
+
+### Fields
+
+| Field Name | Data Type | Description |
+|------------|----------|-------------|
+| user_id | INT | Primary Key |
+| full_name | VARCHAR(100) | User full name |
+| email | VARCHAR(100) | Unique email address |
+| password | VARCHAR(255) | Encrypted password |
+| role | VARCHAR(20) | Learner, Trainer, Administrator |
+| created_at | DATETIME | Account creation date |
+
+---
+
+## 2. Games
+
+### Description
+
+Stores information about educational games available in the system.
+
+### Fields
+
+| Field Name | Data Type | Description |
+|------------|----------|-------------|
+| game_id | INT | Primary Key |
+| game_name | VARCHAR(100) | Name of the game |
+| description | TEXT | Game description |
+| difficulty_level | VARCHAR(20) | Easy, Medium, Hard |
+| total_levels | INT | Number of levels |
+| created_at | DATETIME | Date created |
+
+---
+
+## 3. Voice_Commands
+
+### Description
+
+Stores supported voice commands recognized by the system.
+
+### Fields
+
+| Field Name | Data Type | Description |
+|------------|----------|-------------|
+| command_id | INT | Primary Key |
+| command_text | VARCHAR(100) | Voice command |
+| action | VARCHAR(100) | Action performed |
+| status | VARCHAR(20) | Active or Inactive |
+
+---
+
+## 4. Game_Sessions
+
+### Description
+
+Stores every game session played by a learner.
+
+### Fields
+
+| Field Name | Data Type | Description |
+|------------|----------|-------------|
+| session_id | INT | Primary Key |
+| user_id | INT | Foreign Key |
+| game_id | INT | Foreign Key |
+| start_time | DATETIME | Game start time |
+| end_time | DATETIME | Game end time |
+| score | INT | Score achieved |
+| level_completed | INT | Highest completed level |
+
+---
+
+## 5. Progress
+
+### Description
+
+Stores learner progress and achievements.
+
+### Fields
+
+| Field Name | Data Type | Description |
+|------------|----------|-------------|
+| progress_id | INT | Primary Key |
+| user_id | INT | Foreign Key |
+| game_id | INT | Foreign Key |
+| total_score | INT | Total accumulated score |
+| completion_percentage | DECIMAL(5,2) | Completion percentage |
+| last_played | DATETIME | Last played date |
+
+---
+
+## 6. Feedback
+
+### Description
+
+Stores feedback provided to learners after each game.
+
+### Fields
+
+| Field Name | Data Type | Description |
+|------------|----------|-------------|
+| feedback_id | INT | Primary Key |
+| session_id | INT | Foreign Key |
+| performance | VARCHAR(50) | Excellent, Good, Average |
+| feedback_text | TEXT | Learning feedback |
+| generated_at | DATETIME | Feedback generation time |
+
+---
+
+# Entity Relationships
+
+Users can play many games.
+
+Each game can be played by many users.
+
+Each game session belongs to one user.
+
+Each game session belongs to one game.
+
+Each learner has one or more progress records.
+
+Each game session generates one feedback record.
+
+Voice commands are used during game sessions.
+
+---
+
+# Functional Requirements
+
+User registration and authentication
+
+Role-based access control
+
+Store educational game details
+
+Recognize and manage voice commands
+
+Record game sessions
+
+Track learner progress
+
+Generate performance feedback
+
+Maintain score history
+
+Generate reports for trainers and administrators
+
+---
+
+# Non-Functional Requirements
+
+Secure password storage
+
+Fast query execution
+
+Reliable data storage
+
+Scalable database design
+
+Data integrity using primary and foreign keys
+
+Regular database backup
+
+High availability
+
+Support for concurrent users
+
+---
+
+# Recommended Database Management System
+
+PostgreSQL
+
+or
+
+MySQL
+
+Both databases are suitable for handling user management, game sessions, voice command records, and learner progress efficiently.
+
+ER diagram design :C:\Users\shivn\Downloads\ac9b92d3-d134-4889-9c6a-717409403391.png
