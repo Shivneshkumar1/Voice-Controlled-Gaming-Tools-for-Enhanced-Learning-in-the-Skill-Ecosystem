@@ -568,3 +568,7 @@ MySQL
 Both databases are suitable for handling user management, game sessions, voice command records, and learner progress efficiently.
 
 ER diagram design :C:\Users\shivn\Downloads\ac9b92d3-d134-4889-9c6a-717409403391.png
+
+UI wireframe design: C:\Users\shivn\Downloads\WhatsApp Image 2026-07-10 at 8.21.22 PM.jpeg
+
+Login and dashboard design:C:\Users\shivn\Downloads\WhatsApp Image 2026-07-10 at 8.24.47 PM.jpeg
