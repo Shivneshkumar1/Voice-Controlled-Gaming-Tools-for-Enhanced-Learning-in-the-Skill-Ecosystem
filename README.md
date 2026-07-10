@@ -86,24 +86,6 @@ sounds
 
 README.md
 
-## Installation
-
-Clone the repository
-
-git clone https://github.com/yourusername/Voice-Controlled-Gaming-Tools-for-Enhanced-Learning-in-the-Skill-Ecosystem.git
-
-Move to the project directory
-
-cd Voice-Controlled-Gaming-Tools-for-Enhanced-Learning-in-the-Skill-Ecosystem
-
-Install the required packages
-
-pip install -r requirements.txt
-
-Run the application
-
-python app.py
-
 ## How It Works
 
 The application captures the user's voice through a microphone
@@ -115,26 +97,6 @@ The AI engine interprets the command
 The game responds according to the recognized command
 
 The user continues playing while receiving scores and feedback
-
-## Sample Voice Commands
-
-Start Game
-
-Move Left
-
-Move Right
-
-Jump
-
-Pause Game
-
-Resume Game
-
-Next Question
-
-Repeat Question
-
-Exit Game
 
 ## Applications
 
