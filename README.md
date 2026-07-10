@@ -166,6 +166,11 @@ Bachelor of Engineering
 
 Artificial Intelligence and Machine Learning
 
+## License 
+This project is developed for educational 
+and academic purposes.
+
+
 ## Acknowledgements
 
 Open source Python community
