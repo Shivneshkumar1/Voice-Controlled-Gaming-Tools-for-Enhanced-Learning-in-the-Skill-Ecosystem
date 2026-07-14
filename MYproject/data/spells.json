@@ -1,0 +1,74 @@
+[
+  {
+    "id": "s1",
+    "word": "algorithm",
+    "phonetic": "al-guh-ri-thuhm",
+    "hint": "A step-by-step procedure or set of rules for solving a problem.",
+    "difficulty": "easy",
+    "spellType": "fire",
+    "damage": 20
+  },
+  {
+    "id": "s2",
+    "word": "variable",
+    "phonetic": "vair-ee-uh-buhl",
+    "hint": "A storage location paired with an associated symbolic name, which contains some quantity of information.",
+    "difficulty": "easy",
+    "spellType": "ice",
+    "damage": 15
+  },
+  {
+    "id": "s3",
+    "word": "recursion",
+    "phonetic": "ri-kur-zhuhn",
+    "hint": "A programming technique where a function calls itself directly or indirectly.",
+    "difficulty": "medium",
+    "spellType": "thunder",
+    "damage": 35
+  },
+  {
+    "id": "s4",
+    "word": "inheritance",
+    "phonetic": "ihn-hair-uh-tuhns",
+    "hint": "Mechanism of basing an object or class upon another object or class, retaining similar implementation.",
+    "difficulty": "medium",
+    "spellType": "heal",
+    "damage": 25
+  },
+  {
+    "id": "s5",
+    "word": "polymorphism",
+    "phonetic": "pah-lee-mor-fiz-uhm",
+    "hint": "The provision of a single interface to entities of different types.",
+    "difficulty": "hard",
+    "spellType": "fire",
+    "damage": 50
+  },
+  {
+    "id": "s6",
+    "word": "asynchronous",
+    "phonetic": "ay-sin-kruh-nuhs",
+    "hint": "Code execution that does not block, allowing other processes to run while waiting for an operation to complete.",
+    "difficulty": "hard",
+    "spellType": "thunder",
+    "damage": 45
+  },
+  {
+    "id": "s7",
+    "word": "encapsulation",
+    "phonetic": "en-cap-suh-lay-shuhn",
+    "hint": "Bundling of data and methods that operate on that data within a single unit, restricting direct access.",
+    "difficulty": "hard",
+    "spellType": "ice",
+    "damage": 40
+  },
+  {
+    "id": "s8",
+    "word": "boolean",
+    "phonetic": "boo-lee-uhn",
+    "hint": "A data type that has one of two possible values, usually denoted true and false.",
+    "difficulty": "easy",
+    "spellType": "heal",
+    "damage": 15
+  }
+]

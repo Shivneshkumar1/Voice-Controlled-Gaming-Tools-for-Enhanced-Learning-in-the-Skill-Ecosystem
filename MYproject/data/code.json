@@ -1,0 +1,80 @@
+[
+  {
+    "id": "c1",
+    "prompt": "Declare a constant named LIMIT set to one hundred.",
+    "codeSnippet": "const LIMIT = 100;",
+    "spokenCommand": "const limit equals one hundred",
+    "alternativeAnswers": [
+      "const limit equals one hundred",
+      "const limit equal one hundred",
+      "const limit is one hundred"
+    ],
+    "difficulty": "easy",
+    "decryptPower": 20
+  },
+  {
+    "id": "c2",
+    "prompt": "Call console dot log with the string hello world.",
+    "codeSnippet": "console.log(\"Hello World\");",
+    "spokenCommand": "console log hello world",
+    "alternativeAnswers": [
+      "console log hello world",
+      "console dot log hello world",
+      "console log string hello world"
+    ],
+    "difficulty": "easy",
+    "decryptPower": 20
+  },
+  {
+    "id": "c3",
+    "prompt": "Write an if statement checking if speed is greater than eighty.",
+    "codeSnippet": "if (speed > 80) { }",
+    "spokenCommand": "if speed greater than eighty",
+    "alternativeAnswers": [
+      "if speed greater than eighty",
+      "if speed is greater than eighty",
+      "if speed greater than eighty open curly brace"
+    ],
+    "difficulty": "medium",
+    "decryptPower": 35
+  },
+  {
+    "id": "c4",
+    "prompt": "Define a function named add that returns x plus y.",
+    "codeSnippet": "function add(x, y) { return x + y; }",
+    "spokenCommand": "function add x y return x plus y",
+    "alternativeAnswers": [
+      "function add x y return x plus y",
+      "function add of x y returns x plus y",
+      "function add parameters x y return x plus y"
+    ],
+    "difficulty": "medium",
+    "decryptPower": 40
+  },
+  {
+    "id": "c5",
+    "prompt": "Create a promise resolve function block.",
+    "codeSnippet": "resolve(result);",
+    "spokenCommand": "resolve result",
+    "alternativeAnswers": [
+      "resolve result",
+      "resolve parameters result",
+      "call resolve with result"
+    ],
+    "difficulty": "hard",
+    "decryptPower": 50
+  },
+  {
+    "id": "c6",
+    "prompt": "Export default object instance.",
+    "codeSnippet": "export default app;",
+    "spokenCommand": "export default app",
+    "alternativeAnswers": [
+      "export default app",
+      "export default variable app",
+      "export default object app"
+    ],
+    "difficulty": "hard",
+    "decryptPower": 45
+  }
+]

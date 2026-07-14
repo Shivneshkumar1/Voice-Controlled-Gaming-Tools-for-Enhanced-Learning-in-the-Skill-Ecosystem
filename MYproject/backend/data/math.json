@@ -1,0 +1,74 @@
+[
+  {
+    "id": "m1",
+    "question": "12 + 15",
+    "hint": "Double digit addition",
+    "difficulty": "easy",
+    "answer": "27",
+    "alternativeAnswers": ["27", "twenty seven", "twenty-seven"],
+    "speedBoost": 15
+  },
+  {
+    "id": "m2",
+    "question": "8 * 7",
+    "hint": "Single digit multiplication",
+    "difficulty": "easy",
+    "answer": "56",
+    "alternativeAnswers": ["56", "fifty six", "fifty-six"],
+    "speedBoost": 15
+  },
+  {
+    "id": "m3",
+    "question": "150 - 65",
+    "hint": "Double digit subtraction",
+    "difficulty": "medium",
+    "answer": "85",
+    "alternativeAnswers": ["85", "eighty five", "eighty-five"],
+    "speedBoost": 25
+  },
+  {
+    "id": "m4",
+    "question": "16 * 3",
+    "hint": "Double digit multiplication",
+    "difficulty": "medium",
+    "answer": "48",
+    "alternativeAnswers": ["48", "forty eight", "forty-eight"],
+    "speedBoost": 25
+  },
+  {
+    "id": "m5",
+    "question": "9 * 12",
+    "hint": "Multiplication table of twelve",
+    "difficulty": "medium",
+    "answer": "108",
+    "alternativeAnswers": ["108", "one hundred and eight", "one hundred eight"],
+    "speedBoost": 30
+  },
+  {
+    "id": "m6",
+    "question": "256 / 4",
+    "hint": "Division by four",
+    "difficulty": "hard",
+    "answer": "64",
+    "alternativeAnswers": ["64", "sixty four", "sixty-four"],
+    "speedBoost": 40
+  },
+  {
+    "id": "m7",
+    "question": "17 * 5",
+    "hint": "Double digit multiplication",
+    "difficulty": "hard",
+    "answer": "85",
+    "alternativeAnswers": ["85", "eighty five", "eighty-five"],
+    "speedBoost": 40
+  },
+  {
+    "id": "m8",
+    "question": "125 + 375",
+    "hint": "Triple digit addition",
+    "difficulty": "hard",
+    "answer": "500",
+    "alternativeAnswers": ["500", "five hundred"],
+    "speedBoost": 50
+  }
+]

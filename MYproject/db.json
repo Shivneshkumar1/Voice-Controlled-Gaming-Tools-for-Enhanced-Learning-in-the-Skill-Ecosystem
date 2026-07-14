@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "username": "AstroCoder",
+    "level": 2,
+    "xp": 11,
+    "xpToNextLevel": 200,
+    "skills": {
+      "vocabulary": {
+        "level": 1,
+        "xp": 45
+      },
+      "math": {
+        "level": 1,
+        "xp": 66
+      },
+      "coding": {
+        "level": 1,
+        "xp": 0
+      }
+    },
+    "achievements": [
+      {
+        "id": "a1",
+        "title": "First Cast",
+        "description": "Cast your first spell successfully",
+        "unlocked": true
+      },
+      {
+        "id": "a2",
+        "title": "Speed Demon",
+        "description": "Reach a speed of 100km/h in Math Racer",
+        "unlocked": true
+      },
+      {
+        "id": "a3",
+        "title": "Mainframe Hacker",
+        "description": "Unlock 5 security nodes in CodeSpeak",
+        "unlocked": false
+      }
+    ]
+  },
+  "history": [
+    {
+      "id": "h_1784042560152",
+      "game": "Cyber Math Racer",
+      "score": 305,
+      "xpGained": 61,
+      "date": "2026-07-14T15:22:40Z"
+    },
+    {
+      "id": "h_1784042512167",
+      "game": "Cyber Math Racer",
+      "score": 27,
+      "xpGained": 5,
+      "date": "2026-07-14T15:21:52Z"
+    },
+    {
+      "id": "h_1784042462292",
+      "game": "Cyber Math Racer",
+      "score": 0,
+      "xpGained": 0,
+      "date": "2026-07-14T15:21:02Z"
+    },
+    {
+      "id": "h_1784042317920",
+      "game": "Spellcaster Quest",
+      "score": 45,
+      "xpGained": 45,
+      "date": "2026-07-14T15:18:37Z"
+    }
+  ]
+}

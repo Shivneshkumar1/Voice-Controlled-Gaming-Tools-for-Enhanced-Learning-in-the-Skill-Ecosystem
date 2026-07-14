@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voice Nexus: Gaming Tools for Enhanced Learning</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <div class="logo-icon">
+          <!-- Voice/Waveform SVG Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5v14M22 9v6M7 8v8M2 10v4"/></svg>
+        </div>
+        <h1>VOICE NEXUS</h1>
+      </div>
+      
+      <div class="header-actions">
+        <button id="nav-hub-btn" class="btn-neon" style="font-size: 11px; padding: 8px 16px; display: none;">Game Hub</button>
+        <button id="nav-calibrate-btn" class="btn-neon purple" style="font-size: 11px; padding: 8px 16px; display: none;">Calibrate Mic</button>
+        <div class="user-tag" id="header-user-tag" style="display: none;">
+          <div class="avatar"></div>
+          <span id="header-username">AstroCoder</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Layout Grid -->
+    <div class="workspace-grid" id="main-workspace" style="display: none;">
+      
+      <!-- Sidebar Panels -->
+      <div class="sidebar-panel">
+        
+        <!-- Player Level Badge -->
+        <div class="level-badge glass-panel">
+          <div class="level-circle">
+            <svg>
+              <circle class="bg-ring" cx="50" cy="50" r="45"></circle>
+              <circle class="progress-ring" id="profile-xp-ring" cx="50" cy="50" r="45"></circle>
+            </svg>
+            <div class="level-number" id="profile-level">1</div>
+          </div>
+          <h3 id="profile-username" style="font-size: 16px;">AstroCoder</h3>
+          <div class="xp-label">XP: <span id="profile-xp-val">0</span> / <span id="profile-xp-total">100</span></div>
+        </div>
+
+        <!-- Microphone Calibration Card -->
+        <div class="calibrator-card glass-panel">
+          <h3 style="font-size: 14px; margin-bottom: 8px;">MIC CALIBRATION</h3>
+          <p style="font-size: 11px; color: var(--text-muted);">Ensure microphone is active and levels respond to speech.</p>
+          <div class="visualizer-container">
+            <canvas class="visualizer-canvas" id="mic-visualizer"></canvas>
+            <div class="visualizer-overlay" id="mic-db-indicator">OFF</div>
+          </div>
+          <button id="mic-auth-btn" class="btn-neon mic-toggle-btn">ACTIVATE MICROPHONE</button>
+          <div class="calibration-state">
+            <span>Status: <strong id="mic-status-text" style="color: var(--accent-pink);">DISCONNECTED</strong></span>
+          </div>
+        </div>
+
+        <!-- Skills Progress Card -->
+        <div class="glass-panel">
+          <h3 style="font-size: 15px; margin-bottom: 16px;">SKILL LEVELS</h3>
+          <div class="skills-list">
+            <div class="skill-row">
+              <div class="skill-header">
+                <span>Vocabulary</span>
+                <span id="skill-vocab-level">Lvl 1</span>
+              </div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" id="skill-vocab-bar"></div>
+              </div>
+            </div>
+            
+            <div class="skill-row">
+              <div class="skill-header">
+                <span>Math &amp; Arithmetic</span>
+                <span id="skill-math-level">Lvl 1</span>
+              </div>
+              <div class="skill-bar-container">
+                <div class="skill-bar math" id="skill-math-bar"></div>
+              </div>
+            </div>
+            
+            <div class="skill-row">
+              <div class="skill-header">
+                <span>Coding syntax</span>
+                <span id="skill-code-level">Lvl 1</span>
+              </div>
+              <div class="skill-bar-container">
+                <div class="skill-bar coding" id="skill-code-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Achievements -->
+        <div class="glass-panel">
+          <h3 style="font-size: 15px; margin-bottom: 16px;">ACHIEVEMENTS</h3>
+          <div class="achievements-section" id="achievements-list">
+            <!-- Dynamically Rendered -->
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Main Stage -->
+      <div class="game-stage glass-panel" id="game-stage-container">
+        <!-- Rendered Games / Hub Content Goes Here -->
+      </div>
+
+    </div>
+
+    <!-- Welcome / Profile Setup Form (Rendered first if database is uninitialized or profile username is default) -->
+    <div class="glass-panel welcome-card" id="welcome-panel">
+      <h2>WELCOME TO VOICE NEXUS</h2>
+      <p style="font-size: 14px; color: var(--text-main); line-height: 1.6;">
+        Voice Nexus is an interactive learning platform where you control games with your voice. Speak spells, calculate numbers aloud, and dictate code lines to solve security puzzles.
+      </p>
+      
+      <div class="username-input-group">
+        <label for="player-username-input">Choose Your Call Sign</label>
+        <input type="text" id="player-username-input" class="username-field" placeholder="E.g., Neo, Hackerman, CodePrincess" value="AstroCoder">
+      </div>
+      
+      <button id="start-app-btn" class="btn-neon" style="align-self: center;">Initialize System</button>
+    </div>
+
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
